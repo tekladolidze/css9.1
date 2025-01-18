@@ -307,3 +307,69 @@ h1{
     font-size: 14px;
     color: #FFF;
 }
+
+#main_button_boxes :hover{
+    background-color:  #14171F;
+    color: #FFF;
+
+}
+
+
+#forms_conteiner{
+    display: flex;
+    gap: 32px;
+}
+
+
+#left_conteiner{
+   display: flex;
+   flex-direction: column;
+   width: 702px;
+   height: 654px;
+   gap: 32px;
+}
+
+
+#right_conteiner{
+     display: flex;
+     flex-direction: column;
+     height: 654px;
+     width: 346px;
+     border-radius: 16px;
+     background: #14171F;
+}
+
+#Personal_Information_box{
+    display: flex;
+    flex-direction: column;
+    width: 702px;
+    height: 352px;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+#personal_info_2_boxes{
+    display: flex;
+    gap: 24px;
+}
+
+#left_info_box{
+    display: flex;
+    flex-direction: column;
+    width: 432px;
+    height: 294px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+#right_info_box{
+    display: flex;
+    flex-direction: column;
+    width: 246px;
+    height: 294px;
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+}
+
+
