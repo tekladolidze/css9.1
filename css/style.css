@@ -370,8 +370,10 @@ h1{
 #right_info_box{
     display: flex;
     flex-direction: column;
+    gap: 16px;
     width: 246px;
     height: 294px;
+    padding: 16px;
     border-radius: 16px;
     border: 1px solid #C7C7C7;
 }
@@ -613,13 +615,10 @@ form{
 
 #dev_box{
      display: flex;
-     display: flex;
      padding: 16px;
      flex-direction: column;
      justify-content: space-between;
-     align-items: flex-start;
-     flex: 1 0 0;
-     align-self: stretch;
+     gap: 24px;
      border-radius: 12px;
      background: #F9FBFC;
      width: 400px;
@@ -627,3 +626,20 @@ form{
      margin-top: 10px;
 
 }
+
+.span_lock{
+     display: flex;
+     justify-content: space-between;
+}
+
+.pen_text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.betveens_box{
+    display: flex;
+    justify-content: space-between;
+}
+
