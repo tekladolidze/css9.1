@@ -21,6 +21,7 @@
     max-width: 296px;
     min-height: 1134px;
     background: #14171F;
+    margin-right: 20px;
 }
 
 #main_conteiner {
@@ -159,6 +160,7 @@ main {
 #button_box {
     display: flex;
     padding: 19px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -285,6 +287,7 @@ h1 {
 
 #main_button_boxes {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -704,6 +707,7 @@ form {
     #main_conteiner {
         min-width: 704px;
         width: 100%;
+        align-items: center;
     }
 
 
@@ -748,6 +752,54 @@ form {
         width: 642px;
         justify-content: space-between;
      }
-   
+}
+
+
+/* ___________Mobile___________ */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #left_nav_conteiner {
+        display: none;
+    }
+
+   body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+
+    #nav_conteiner{
+        max-width: 320px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    #main_conteiner {
+        max-width: 767px;
+        width: 100%;
+    }
+
+    #full_stack_conteiner{
+        align-items: center;
+        justify-content: center;
+        min-width: 320px;
+        width: 100%;
+    }
+
+    #img_conteiner{
+        background-image: url(../images/main_img.png);
+        
+    }
+
+    #h1{
+        font-size: 24px;
+    }
+
+    #main_button_boxes{
+        flex-wrap: wrap;
+        min-width: 288px;
+        
+    }
 
 }
