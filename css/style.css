@@ -1,41 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-#full_stack_conteiner{
+#full_stack_conteiner {
     display: flex;
-    min-width: 1440px;
+    max-width: 1440px;
     width: 100%;
 }
 
 
 /* left_nav_conteineeeeeer */
 
-#left_nav_conteiner{
+#left_nav_conteiner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 296px;
-    height: 1134px;
+    max-width: 296px;
+    min-height: 1134px;
     background: #14171F;
 }
 
-#main_conteiner{
+#main_conteiner {
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-grow: 1;
-    gap:32px;
+    gap: 32px;
     background: #FFF;
-    
+
 }
 
 
 
-main{
+main {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -43,7 +43,7 @@ main{
 
 
 
-#left_nav_top_box{
+#left_nav_top_box {
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -51,7 +51,7 @@ main{
 
 }
 
-.logo_style{
+.logo_style {
     display: flex;
     align-items: center;
     color: #FFF;
@@ -59,16 +59,16 @@ main{
     padding: 0px 16px 16px 16px;
     font-size: 24px;
     font-weight: 800;
-    width: 248px;
+    max-width: 248px;
     height: 64px;
     border-bottom: 1px solid #3D414B;
 }
 
 
-#avatar_box{
+#avatar_box {
     display: flex;
     align-items: center;
-    width: 248px;
+    max-width: 248px;
     height: 70px;
     justify-content: space-between;
     border-top: 1px solid #7D70BD;
@@ -77,14 +77,14 @@ main{
 }
 
 
-#avatar_text_box{
+#avatar_text_box {
     display: flex;
     flex-direction: column;
 }
 
 
 
-#avatar_img_text{
+#avatar_img_text {
     display: flex;
     gap: 8px;
     align-items: center;
@@ -93,7 +93,7 @@ main{
 
 
 
-#avatar_name{
+#avatar_name {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
@@ -102,68 +102,68 @@ main{
 
 
 
-#avatar_status{
+#avatar_status {
     color: #929699;
     font-size: 14px;
     font-weight: 400;
 }
 
 
-#avatar_icon{
+#avatar_icon {
     display: flex;
     width: 24px;
     height: 24px;
 }
 
 
-.manu_conteiner{
+.manu_conteiner {
     display: inline-flex;
     flex-direction: column;
-    width: 137px;
+    max-width: 137px;
     height: 288px;
 }
 
 
-.li_style{
+.li_style {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 12px;
 }
 
-.ul_style{
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+.ul_style {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
-.li_span_style{
+.li_span_style {
     color: #929699;
     font-size: 16px;
     font-weight: 400;
 }
 
 
-#manu_last_box{
+#manu_last_box {
     display: flex;
     flex-direction: column;
     padding: 32px 0px 32px 0px;
-    width: 248px;
+    max-width: 248px;
     height: 134px;
     border-top: 1px solid #3D414B;
     border-bottom: 1px solid #3D414B;
 }
 
 
-#button_box{
+#button_box {
     display: flex;
     padding: 19px;
     justify-content: center;
 }
 
 
-#button_style{
+#button_style {
     display: flex;
     padding: 12px 24px;
     justify-content: center;
@@ -182,17 +182,17 @@ main{
 
 /* header_conteineeeeer*/
 
- #nav_conteiner{
-     display: flex;
-     width: 1080px;
-     justify-content: space-between;
-     align-items: center;
-     height: 38px;
-     margin-top: 24px;
-    
+#nav_conteiner {
+    display: flex;
+    width: 1080px;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    margin-top: 24px;
+
 }
 
-#nav_ul{
+#nav_ul {
     display: flex;
     list-style: none;
     gap: 24px;
@@ -201,14 +201,14 @@ main{
     font-weight: 400;
 }
 
-#header_buttons{
+#header_buttons {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 
-#became_button{
+#became_button {
     color: #2F2F2F;
     font-size: 14px;
     font-weight: 400;
@@ -218,13 +218,13 @@ main{
     align-items: center;
     border-radius: 50px;
     height: 38px;
-    width: 144px;
+    max-width: 144px;
     border: 1px solid #C7C7C7;
     background: #F7F7F7;
 }
 
 
-#my_class_button{
+#my_class_button {
     display: flex;
     padding: 8px 12px;
     justify-content: center;
@@ -236,7 +236,7 @@ main{
     border: 1px solid #C7C7C7;
 }
 
-.header_icon_style{
+.header_icon_style {
     display: flex;
     width: 32px;
     height: 32px;
@@ -248,43 +248,47 @@ main{
 }
 
 
-/* main_conteineeeeeer */
- 
+#burger {
+    display: none;
+}
 
-#img_conteiner{
+/* main_conteineeeeeer */
+
+
+#img_conteiner {
     display: flex;
-    background-image:url(../images/main_img.png) ;
+    background-image: url(../images/main_img.png);
     background-repeat: no-repeat;
     height: 228px;
-    width: 1080px;
+    max-width: 1080px;
     align-items: center;
     border-radius: 16px;
     border: 1px solid #C7C7C7;
 }
 
-h1{
+h1 {
     display: flex;
     color: #2F2F2F;
     font-size: 40px;
     font-weight: 600;
 }
 
-#h1_box{
-     display: flex;
-     width: 416px;
-     height: 96px;
-     margin-left: 40px;
-}
-
-
-
-
-#main_button_boxes{
+#h1_box {
     display: flex;
-    gap:16px ;
+    max-width: 416px;
+    height: 96px;
+    margin-left: 40px;
 }
 
-.bytton_style{
+
+
+
+#main_button_boxes {
+    display: flex;
+    gap: 16px;
+}
+
+.bytton_style {
     display: flex;
     padding: 8px 16px;
     justify-content: center;
@@ -297,7 +301,7 @@ h1{
     font-weight: 400;
 }
 
-.black_button{
+.black_button {
     border: 1px solid #3D414B;
     background: #14171F;
     padding: 8px 16px;
@@ -308,40 +312,40 @@ h1{
     color: #FFF;
 }
 
-#main_button_boxes :hover{
-    background-color:  #14171F;
+#main_button_boxes :hover {
+    background-color: #14171F;
     color: #FFF;
 
 }
 
 
-#forms_conteiner{
+#forms_conteiner {
     display: flex;
     gap: 32px;
 }
 
 
-#left_conteiner{
-   display: flex;
-   flex-direction: column;
-   width: 702px;
-   height: 654px;
-   gap: 32px;
+#left_conteiner {
+    display: flex;
+    flex-direction: column;
+    max-width: 702px;
+    min-height: 654px;
+    gap: 32px;
 }
 
 
-#right_conteiner{
-     display: flex;
-     flex-direction: column;
-     height: 654px;
-     width: 346px;
-     gap: 12px;
-     padding: 16px;
-     border-radius: 16px;
-     background: #14171F;
+#right_conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 654px;
+    width: 100%;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #14171F;
 }
 
-#Personal_Information_box{
+#Personal_Information_box {
     display: flex;
     flex-direction: column;
     width: 702px;
@@ -352,26 +356,26 @@ h1{
     border: 1px solid #C7C7C7;
 }
 
-#personal_info_2_boxes{
+#personal_info_2_boxes {
     display: flex;
     gap: 24px;
 }
 
-#left_info_box{
+#left_info_box {
     display: flex;
     flex-direction: column;
-    width: 432px;
+    max-width: 432px;
     height: 294px;
     padding: 16px;
     border-radius: 16px;
     border: 1px solid #C7C7C7;
 }
 
-#right_info_box{
+#right_info_box {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 246px;
+    max-width: 246px;
     height: 294px;
     padding: 16px;
     border-radius: 16px;
@@ -379,18 +383,18 @@ h1{
 }
 
 
-#avatar_info_box{
+#avatar_info_box {
     display: flex;
     flex-direction: column;
     padding: 16px;
-    width: 314px;
+    width: 100%;
     gap: 12px;
     height: 246px;
     border-radius: 12px;
     background: #FFF;
 }
 
-#location_box{
+#location_box {
     display: flex;
     padding: 16px;
     flex-direction: column;
@@ -398,12 +402,12 @@ h1{
     border-radius: 12px;
     background: #FFF;
     gap: 8px;
-    width: 314px;
+    width: 100%;
     height: 120px;
 }
 
 
-#about_box{
+#about_box {
     display: flex;
     padding: 16px;
     flex-direction: column;
@@ -412,18 +416,18 @@ h1{
     border-radius: 12px;
     background: #FFF;
     height: 256px;
-    width: 314px; 
+    width: 100%;
 }
 
-#span_box{
+#span_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 140px;
-     
+
 }
 
-#lorem_box{
+#lorem_box {
     display: flex;
     padding: 12px 16px;
     align-items: center;
@@ -436,7 +440,7 @@ h1{
 }
 
 
-#Evergreen_box{
+#Evergreen_box {
     display: flex;
     padding: 12px 16px;
     justify-content: space-between;
@@ -447,14 +451,14 @@ h1{
     background: #F9FBFC;
 }
 
-#loc_div{
+#loc_div {
     display: flex;
     justify-content: space-between;
     gap: 200px;
 }
 
 
-#avatar_girl{
+#avatar_girl {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -465,13 +469,13 @@ h1{
 }
 
 
-#avatar_lok{
-     display: flex;
-     justify-content: space-between;
+#avatar_lok {
+    display: flex;
+    justify-content: space-between;
 }
 
 
-#camera_img{
+#camera_img {
     display: flex;
     width: 32px;
     height: 32px;
@@ -480,13 +484,13 @@ h1{
 }
 
 
-#pen_box{
-     display: flex;
-     flex-direction: column;
-     gap: 8px;
+#pen_box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.pen_box_style{
+.pen_box_style {
     display: flex;
     width: 32px;
     height: 32px;
@@ -498,15 +502,15 @@ h1{
 }
 
 
-#Andrio_box{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     gap: 8px;
+#Andrio_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
-.andrio_button{
+.andrio_button {
     display: flex;
     padding: 8px 12px;
     justify-content: center;
@@ -519,12 +523,12 @@ h1{
     border: 1px solid #C7C7C7;
 }
 
-#andrio_div{
+#andrio_div {
     display: flex;
     gap: 8px;
 }
 
-#andrio_title{
+#andrio_title {
     color: #2F2F2F;
     text-align: center;
     font-size: 24px;
@@ -532,43 +536,43 @@ h1{
     line-height: 32px;
 }
 
-.form_title{
+.form_title {
     color: #2F2F2F;
     font-size: 16px;
     font-weight: 500;
 }
 
-.forms_paragraf{
+.forms_paragraf {
     color: #666;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
 }
 
-#perso_title{
-     display: flex;
-     justify-content: space-between;
+#perso_title {
+    display: flex;
+    justify-content: space-between;
 }
 
 
-form{
+form {
     display: flex;
     gap: 16px;
 }
 
-#person_text{
+#person_text {
     display: flex;
     flex-direction: column;
 }
 
-.form_type{
+.form_type {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
 
-.input_style{
+.input_style {
     display: flex;
     padding: 12px 16px;
     align-items: center;
@@ -581,7 +585,7 @@ form{
     background: #F9FBFC;
 }
 
-#diferent_button{
+#diferent_button {
     display: flex;
     padding: 12px 16px;
     align-items: center;
@@ -594,13 +598,13 @@ form{
 }
 
 
-#different_butt{
-      display: flex;
-      gap: 6px;
+#different_butt {
+    display: flex;
+    gap: 6px;
 }
 
 
-#black_butt{
+#black_butt {
     display: flex;
     padding: 12px 16px;
     align-items: center;
@@ -613,38 +617,38 @@ form{
     font-weight: 400;
 }
 
-#dev_box{
-     display: flex;
-     padding: 16px;
-     flex-direction: column;
-     justify-content: space-between;
-     gap: 24px;
-     border-radius: 12px;
-     background: #F9FBFC;
-     width: 400px;
-     height: 200px;
-     margin-top: 10px;
+#dev_box {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    border-radius: 12px;
+    background: #F9FBFC;
+    width: 400px;
+    height: 200px;
+    margin-top: 10px;
 
 }
 
-.span_lock{
-     display: flex;
-     justify-content: space-between;
+.span_lock {
+    display: flex;
+    justify-content: space-between;
 }
 
-.pen_text{
+.pen_text {
     display: flex;
     flex-direction: column;
 }
 
 
-.betveens_box{
+.betveens_box {
     display: flex;
     justify-content: space-between;
 }
 
 
-.Additional_box{
+.Additional_box {
     display: flex;
     padding: 12px 16px;
     align-items: center;
@@ -653,13 +657,13 @@ form{
     background: #F9FBFC;
 }
 
-#butt_box{
+#butt_box {
     display: flex;
     gap: 8px;
 }
 
 
-.Additional_boxss{
+.Additional_boxss {
     display: flex;
     padding: 12px 16px;
     align-items: center;
@@ -667,4 +671,83 @@ form{
     border-radius: 8px;
     border: 1px solid #C7C7C7;
     background: #F9FBFC;
+}
+
+
+/* ___________Tablet__________  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #nav_conteiner {
+        max-width: 1023px;
+        width: 100%;
+    }
+
+    #burger {
+        position: fixed;
+    }
+
+    #left_nav_conteiner {
+        display: none;
+    }
+
+
+    #full_stack_conteiner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 768px;
+        width: 100%;
+        gap: 24px;
+    }
+
+
+    #main_conteiner {
+        min-width: 704px;
+        width: 100%;
+    }
+
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #img_conteiner {
+        align-items: center;
+        width: 704px;
+        height: 228px;
+    }
+
+    #main_button_boxes {
+        flex-wrap: wrap;
+        max-width: 704px;
+    }
+
+    #forms_conteiner {
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    #avatar_info_box{
+        width: 672px;
+    }
+
+    #location_box{
+        width: 672px;
+    }
+
+    #about_box{
+        width: 672px;
+    }
+
+     #loc_div{
+        width: 642px;
+        justify-content: space-between;
+     }
+   
+
 }
